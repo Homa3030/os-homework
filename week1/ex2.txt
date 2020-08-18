@@ -1,0 +1,47 @@
+    1  $ssh-X regina@osc-r.khamatova.edu.innopolis.ru
+    2  $ssh -X regina@osc-r.khamatova.edu.innopolis.ru
+    3  ssh -X regina@osc-r.khamatova.edu.innopolis.ru
+    4  touch zhopa.txt
+    5  ls
+    6  rm zhopa.txt
+    7  ls
+    8  touch zhopa.txt
+    9  ls
+   10  vim zhopa.txt
+   11  rm zhopa.txt
+   12  mkdir ~/week1
+   13  cd ~/week1
+   14  ls -1 /usr/bin/"gcc" >exl.txt
+   15  ls -l /usr/bin/"gcc" >exl.txt
+   16  sudo ls -l /usr/bin/"gcc" >exl.txt
+   17  ls
+   18  pwd
+   19  cd ..
+   20  pwd
+   21  cd ..
+   22  ls
+   23  cd usr
+   24  ls
+   25  cd bin
+   26  ls
+   27  ls -l "gcc" home/regina/week1/exl.txt
+   28  ls -l "gcc" ~/regina/week1/exl.txt
+   29  ls -l "g" ~/regina/week1/exl.txt
+   30  sudo apt install gcc
+   31  cd ~/week1
+   32  ls
+   33  ls -l usr/bin/"gcc" >exl.txt
+   34  ls -l /usr/bin/"gcc" >exl.txt
+   35  ls
+   36  vim ex1.txt
+   37  ls -l /usr/bin/"gcc" >exl.txt
+   38  vim ex1.txt
+   39  ls -l /usr/bin/"gcc" >ex1.txt
+   40  ls
+   41  vim ex1.txt
+   42  rm exl.txt
+   43  ls /usr/bin/ | sort -r | grep --ignore-case "gcc" > ex1.txt
+   44  vim ex1.txt
+   45  history > ex2.txt
+   46  vim ex2.txt
+   47  history > ex2.txt
