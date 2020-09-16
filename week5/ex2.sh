@@ -29,3 +29,4 @@ while true; do
     fi
 done
 
+#The race condition manifests itself very soon. We can observe this by looking at duplicate numbers.
