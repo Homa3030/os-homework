@@ -125,26 +125,52 @@ int main(){
 }
 
 /*
-number of processes: 3
-quantum size: 2 (For the RR algorithm)
+Imput:
+
+Enter number of processes: 4
+Enter quantum size: 1 (For RR)
+Enter Arrival time and Burst time for each process: 
 Arrival time of process[1]: 0
-Burst time of process[1]: 4
+Burst time of process[1]: 1
 Arrival time of process[2]: 1
-Burst time of process[2]: 4
+Burst time of process[2]: 10
 Arrival time of process[3]: 2
-Burst time of process[3]: 6
+Burst time of process[3]: 1
+Arrival time of process[4]: 3
+Burst time of process[4]: 1
 
 FCFS output:
+P#      AT      BT      CT      TAT     WT
+
+P1      0       1       1       1       0
+P2      1       10      11      10      0
+P3      2       1       12      10      9
+P4      3       1       13      10      9
+
+Average Turnaround Time = 7.750000
+Average Waiting Time = 4.500000
 
 SJN output:
+P#      AT      BT      CT      TAT     WT
+
+P1      0       1       1       1       0
+P2      1       10      11      10      0
+P3      2       1       12      10      9
+P4      3       1       13      10      9
+
+Average Turnaround Time = 7.750000
+Average Waiting Time = 4.500000
 
 RR output:
 P#      AT      BT      CT      TAT     WT
 
-P1      0       4       8       8       4
-P2      1       4       10      9       5
-P3      2       6       14      12      6
+P1      0       1       1       1       0
+P2      2       1       3       1       0
+P3      3       1       4       1       0
+P4      1       10      13      12      2
 
-Average Turnaround Time = 9.666667
-Average Waiting Time = 5.000000
+Average Turnaround Time = 3.750000
+Average Waiting Time = 0.500000
+
+For this particular case RR is faster than other algorithms.
 */
