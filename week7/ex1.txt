@@ -1,0 +1,2 @@
+   text    data     bss     dec     hex filename
+   3403     640    2032    6075    17bb a.out
