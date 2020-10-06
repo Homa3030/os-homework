@@ -1,0 +1,2 @@
+Physical address is the "real" location inside the physial memory, but virtual address is the location inside the address space of a process. 
+Instead of physial address, data referenced by the virtual address can be read/written only after MMU map virtual address to physial one. 

@@ -1,0 +1,4 @@
+8 KB = 8 * 1024 bytes = 8192 bytes = 2^13 bytes 
+As each page has 2^13 memory locations we get that memory locations can be encoded using 13 bits.
+3 bits go to table entry index 
+Thus, we get that 3 bits can encode 2^3 = 8 entries

@@ -1,0 +1,30 @@
+top - 18:38:32 up  5:42,  0 users,  load average: 0.52, 0.58, 0.59
+Tasks:  21 total,   1 running,  13 sleeping,   7 stopped,   0 zombie
+%Cpu(s):  0.8 us,  3.9 sy,  0.0 ni, 95.3 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+MiB Mem :   8072.5 total,   1531.5 free,   6317.0 used,    224.0 buff/cache
+MiB Swap:  24576.0 total,  24260.4 free,    315.6 used.   1624.9 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    1 root      20   0    8936    224    176 S   0.0   0.0   0:00.14 init
+   11 root      20   0    8944    176    120 S   0.0   0.0   0:00.00 init
+   12 regina    20   0   10656    404    372 S   0.0   0.0   0:00.00 sh
+   13 regina    20   0   10656    452    420 S   0.0   0.0   0:00.00 sh
+   38 regina    20   0   10656    428    396 S   0.0   0.0   0:00.01 sh
+   40 regina    20   0  976564  41468  16804 S   0.0   0.5   0:05.74 node
+  136 regina    20   0 1117048  92508  77308 S   0.0   1.1   0:25.30 node
+  143 regina    20   0  861272  19228   9828 S   0.0   0.2   0:00.66 node
+  160 regina    20   0   18184   3164   3080 S   0.0   0.0   0:00.45 bash
+  219 regina    20   0 1388452  22124  11388 S   0.0   0.3   0:03.21 cpptools
+  430 regina    20   0   18992   1360    900 T   0.0   0.0   0:00.17 top
+  432 regina    20   0   18904   1336    904 T   0.0   0.0   0:00.09 top
+  434 regina    20   0   18904   1344    900 T   0.0   0.0   0:00.16 top
+  592 regina    20   0 4889324  16496  13828 S   0.0   0.2   0:00.78 cpptools-srv
+  624 regina    20   0   51512  41520    416 T   0.0   0.5   0:00.05 a.out
+  731 root      20   0   18920   2676   2580 T   0.0   0.0   0:00.05 sudo
+  732 root      20   0   18904   2048   1448 T   0.0   0.0   0:00.25 top
+  794 regina    20   0   18912   2164   1520 T   0.0   0.0   0:00.04 top
+  796 regina    20   0   41268  31236    380 S   0.0   0.4   0:00.07 a.out
+  797 root      20   0   18912   2712   2612 S   0.0   0.0   0:00.03 sudo
+  798 root      20   0   18908   2012   1440 R   0.0   0.0   0:00.03 top  
+
+  As you can see we got that our program (a.out) produces memory load (0.5%)
