@@ -1,0 +1,6 @@
+  
+Hit ratio is relatively high when we input numbers 1 2 3 4 5 7 3 5 2 6 1 3 4 with a table of size 5.
+The reason is: most of referenced pages are in range 1..5. We can call it working set. Thus, most likely they are in page table.
+
+Hit ratio is 0 when we input numbers 1 2 3 4 5 6 7 8 9 10 1 2 3 4 5 with a table of size 5.
+The reason is: all references are far away from each other. When we need to access 1 for the second time, for example, it is no longer in page table.
