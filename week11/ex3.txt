@@ -1,0 +1,12 @@
+Standart IO buffer is a line buffer. 
+
+Program 1 puts Hello into the buffer and then forks. 
+Hello hasn't been displayed yet. Thus, both processes have
+Hello in their buffers. Thus, printing \n causes both buffers to flush.
+Outcome: Hello is printed twice.
+
+Program 1 puts Hello\n into the buffer and then forks.
+Because of that \n, buffer is flushed and the process with empty 
+buffers both. Then we have print of \n, which simply
+causes blank line to be printed twice.
+Outcome: Hello is printed once altogether with two blank lines.
